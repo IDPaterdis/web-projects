@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../chapter1/taskform.css">
+</head>
+<body>
+    <div class="container">
+    <form>
+    <h1>Φόρμα Πληρωμής</h1>
+    <p>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr></p>
+    <h2>Προσωπικά Στοιχεία</h2>
+    <form >
+        <fieldset style="width: 180px;">
+            <legend>"Title"</legend>
+            <input type="radio" name="title" id="title" value="mister">
+            <label for="title">Mr.</label>
+        <div>
+             <input type="radio" name="title" id="title" value="miss">
+            <label for="title">Mrs.</label>
+        <div>
+            <input type="radio" name="title" id="title" value="doctor">
+            <label for="title">Dr.</label>
+        </div>
+        </fieldset>
+        <p class="form-txt">
+            <label for="Name">
+                <span>Name </span>
+                <abbr title="Required field">*</abbr>
+            </label>
+            <input class="fx-field" type="text" id="Name">
+         </p>
+          <p class="form-txt">
+            <label for="E-mail">
+                 <span>E-mail </span>
+                 <abbr title="Required field">*</abbr>
+                </label>
+            <input class="fx-field" type="email" id="E-mail">
+        </p>
+        <p class="form-txt">
+            <label for="Password">
+                <span>Password </span>
+                <abbr title="Required field">*</abbr>
+            </label>
+            <input class="fx-field" type="password" id="Password">
+        </p>
+
+            <h3>Πληροφορίες Πληρωμής</h3>
+             <p class="type">
+            <label for="Card Type">
+                <span>Card type</span>
+            </label>
+            <select name="Card Type" id="Card Type">
+                 <option value="1">Visa</option>
+                 <option value="2">Mastercard</option>
+                 <option value="3">American Express</option>
+                </p>
+        </select>
+             <p class="form-txt">
+            <label for="Card number">
+                <span>Card number</span>
+                 <abbr title="Required field">*</abbr>
+                </label>
+             <input class="fx-field" type="number" id="Card number">
+            </p>
+             <p class="form-txt">
+            <label for="Expiration Date">
+                <span>Expiration Date</span>
+                <abbr title="Required field">*</abbr></label>
+            <input class="fx-field" type="text" id="Expiration Date" placeholder="MM/YY" pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$">
+        </p>
+        <div>
+            <input type="submit" value="Προχωρίστε στην πληρωμή"
+            class="button">
+        </div>
+    </form>
+</div>
+</body>
+</html>

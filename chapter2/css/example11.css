@@ -1,0 +1,14 @@
+/*Cascade rules */
+/* p{
+    color: red;
+}
+
+p{
+    color: blue;
+} */
+/* Specificity Rules*/
+
+.cf-text{
+    color: red;
+}
+

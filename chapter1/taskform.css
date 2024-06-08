@@ -1,0 +1,44 @@
+body{
+    border: solid lightgrey;
+    border-radius: 2rem;
+    width: 500px;
+    
+}
+label > abbr {
+    color: red;
+}
+
+
+p > abbr {
+    color: red;
+
+}
+fieldset{
+    margin-left: 150px;
+   padding: 5px;
+
+   
+
+}
+
+.fx-field{
+    width: 180px;
+    
+}
+
+
+.form-txt {
+    text-align:  right;
+    margin-right: 160px;
+
+}
+
+.button {
+margin-left: 100px;
+}
+
+.type{
+    margin-left: 85px;
+}
+
+

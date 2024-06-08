@@ -1,0 +1,34 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th{
+    height: 70px;
+    
+}
+td{
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(197, 194, 194);
+}
+
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+tbody tr:hover{
+    background-color: black ;
+    color: white;
+}
+
+tfoot{
+    background-color: black;
+    color: white;
+}

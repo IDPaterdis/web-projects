@@ -1,0 +1,22 @@
+body{
+    background-color: lightgray;
+}
+h1 {
+    border-bottom: 3px solid black;
+    width: 500px;
+
+}
+.contact{
+    width: 300px;
+    border: 2px solid black; 
+}
+
+.exp > li {
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    width: 550px;
+}
